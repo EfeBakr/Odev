@@ -1,0 +1,19 @@
+int main() {
+    int sayi1 =0;
+    int sayi2 =0;
+
+    printf("birinci tam sayiyi gir: ");
+    scanf("%d", &sayi1);
+
+    printf("ikinci tam sayiyi gir: ");
+    scanf("%d", &sayi2);
+
+    printf("toplam: %d\n", sayi1 + sayi2);
+    printf("fark: %d\n", sayi1 - sayi2);
+    printf("carpim: %d\n", sayi1 * sayi2);
+    printf("bölüm: %d\n", sayi1 / sayi2);
+
+    
+
+    return 0;
+}
