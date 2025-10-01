@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    int a = 0;
+    int b = 0;
+    int c = 0;
+    int x = 0;
+
+    printf("3 sayi gir:\n");
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    if (a > b) {
+        x = a;
+        a = b;
+        b = x;
+    }
+
+
+    if (a > c) {
+        x = a;
+        a = c;
+        c = x;
+    }
+
+
+    if (b > c) {
+        x = b;
+        b = c;
+        c = x;
+    }
+
+    printf("Kucukten buyuge: %d %d %d\n", a, b, c);
+
+    return 0;
+}
